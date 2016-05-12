@@ -1,4 +1,5 @@
 function [training_set] = training_sets(completedTsets)
+% completedTsets: 
 
 % Get list of all jpg files in this directory
 % DIR returns as a structure array.  You will need to use () and . to get
@@ -9,11 +10,10 @@ function [training_set] = training_sets(completedTsets)
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 alphabet2 = 'abcdefghijklmnopqrstuvwxyz';
 image_paths = [];
-
+ p1 = './letters_set/';
+ p2 = '/*.jpg';
 % capital A's to Z's
 for j = 'A':alphabet(completedTsets),
-    p1 = './letters_adjusted/';
-    p2 = '/*.jpg';
     image_paths = [ image_paths; strcat(p1,j,p2)];
 end    
 
@@ -25,7 +25,7 @@ for k = 1:completedTsets,
     nfiles = length(imagefiles);    % Number of files found
     for i=1:nfiles,
        currentfilename = imagefiles(i).name;
-       dir_path = strcat('./letters_adjusted/', alphabet(k), '/');
+       dir_path = strcat(p1, alphabet(k), '/');
        path = strcat(dir_path, currentfilename);
        currentimage = imread(path);
        images{i} = currentimage;
