@@ -6,6 +6,10 @@ For mathematical details:
 
 [Dictionary Learning] (https://github.com/formosa21/Dictionary-learning/blob/master/DictionaryLearning.pdf)
 
+For a pictorial overview:
+
+[Click Me] (https://github.com/formosa21/Dictionary-learning/blob/master/Slides.pdf)
+
 Data set: Chars74K
 
 Each picture is reduce to size 20 by 20.
