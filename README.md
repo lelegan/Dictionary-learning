@@ -1,10 +1,14 @@
 # Dictionary-learning
 
-Implement Dictionary learning and train the Dictionaries to recognize capital letters from A to Z using Matlab. 
+Implement Dictionary learning and train the Dictionaries to recognize capital letters from A to Z.
+
+For mathematical details:
+
+[Dictionary Learning] (https://github.com/formosa21/Dictionary-learning/blob/master/DictionaryLearning.pdf)
 
 Data set: Chars74K
 
-Each picture is reduce to size 20 by 20 using IrfanView64 software.
+Each picture is reduce to size 20 by 20.
 
 * The letter images are stored under the letter-set folder. 
 
@@ -21,4 +25,5 @@ To run through the implementation, simply use the file “main.m” and execute 
 References:
 
 [Dictionary Learning and Sparse Coding for unsupervised clustering] (https://www.ima.umn.edu/sites/default/files/2281.pdf)
+
 [Online Dictionary Learning for Sparse Coding] (http://www.di.ens.fr/~fbach/mairal_icml09.pdf)
