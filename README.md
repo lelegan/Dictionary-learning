@@ -8,7 +8,7 @@ For mathematical details:
 
 For a pictorial overview:
 
-[Click Me] (https://github.com/formosa21/Dictionary-learning/blob/master/Slides.pdf)
+[Overview] (https://github.com/formosa21/Dictionary-learning/blob/master/Slides.pdf)
 
 Data set: Chars74K
 
