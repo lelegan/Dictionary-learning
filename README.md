@@ -27,3 +27,5 @@ References:
 [Dictionary Learning and Sparse Coding for unsupervised clustering] (https://www.ima.umn.edu/sites/default/files/2281.pdf)
 
 [Online Dictionary Learning for Sparse Coding] (http://www.di.ens.fr/~fbach/mairal_icml09.pdf)
+
+[Least Angle Regression] (http://statweb.stanford.edu/~imj/WEBLIST/2004/LarsAnnStat04.pdf)
