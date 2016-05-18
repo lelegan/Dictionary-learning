@@ -1,6 +1,6 @@
 # Dictionary-learning
 
-Implement Dictionary learning and train the Dictionaries for object recognition tasks.
+Implement Dictionary learning for object recognition tasks.
 
 
 
