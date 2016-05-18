@@ -1,6 +1,8 @@
 # Dictionary-learning
 
-Implement Dictionary learning and train the Dictionaries to recognize capital letters from A to Z.
+Implement Dictionary learning and train the Dictionaries for object recognition tasks.
+
+
 
 For mathematical details:
 
@@ -9,6 +11,8 @@ For mathematical details:
 For a pictorial overview:
 
 [Overview] (https://github.com/formosa21/Dictionary-learning/blob/master/Slides.pdf)
+
+Right now the input signal is just image of letters from A to Z.
 
 Data set: Chars74K
 
